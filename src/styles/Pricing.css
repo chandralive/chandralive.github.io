@@ -1,0 +1,307 @@
+/* Pricing.css */
+
+.pricing-section {
+
+    padding: 40px 0;
+}
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .pricing-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  .pricing-option {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+  }
+  
+  .pricing-tier {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .pricing-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgb(202, 202, 202);
+    width: 100%;
+  }
+  
+  .pricing-price {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(223, 223, 223);
+  }
+  
+  .features {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .pricing-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pricing-box {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #363636;
+    text-align: center;
+  }
+  
+  .pricing-box.bonus {
+    background-color: #e0e0e0;
+    text-align: center;
+    justify-content: center;
+  }
+  
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #1D1F20;
+  
+  }
+
+  .features {
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    margin-right: 40%;
+  }
+
+  .liststuff{
+    justify-content: center;
+    width: 100%;
+  }
+
+
+
+  .pricingbox1 {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+    /* background: #060c2960; */
+    /* border-radius: 5px;
+     */
+    
+    
+  }
+  
+  .pricingbox1:before {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(215deg, #02ebb1, #060c21, #00bcd4);
+    z-index: -1;
+    border-radius: 5px;
+  }
+  
+  .pricingbox1:after {
+    flex-basis: calc(33.33% - 20px);
+    padding: 10px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(215deg, #02ebb1, #060c21, #00bcd4);
+    z-index: -1;
+    filter: blur(40px);
+    /* border-radius: 5px; */
+    
+  }
+  
+  .pricingbox1:before,
+  .pricingbox1:after {
+     background: linear-gradient(215deg, #02ebb1, #060c21, #00bcd4);
+  }
+
+  .pricingbox2 {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+    /* background: #060c2960; */
+    border-radius: 5px;
+  }
+  
+  .pricingbox2:before {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(255, 255, 255, 0);
+    z-index: -1;
+    border-radius: 5px;
+  }
+  
+  .pricingbox2:after {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(255, 255, 255, 0);
+    z-index: -1;
+    filter: blur(40px);
+    border-radius: 5px;
+  }
+  
+  .pricingbox2:before,
+  .pricingbox2:after {
+     background: linear-gradient(155deg, #5eebc1, #060c21, #de87f8);
+     
+  }
+
+  .pricingbox3 {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+    /* background: #060c2960; */
+    border-radius: 5px;
+  }
+  
+  .pricingbox3:before {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(255, 255, 255, 0);
+    z-index: -1;
+    border-radius: 5px;
+  }
+  
+  .pricingbox3:after {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(255, 255, 255, 0);
+    z-index: -1;
+    filter: blur(40px);
+    border-radius: 5px;
+  }
+  
+  .pricingbox3:before,
+  .pricingbox3:after {
+     background: linear-gradient(195deg, #23bbf7, #060c21, #de87f8);
+  }
+
+/* 
+  .pricingbox1{
+    transition: opacity 0.3s ease;
+    opacity: 30%;
+  }
+
+  .pricingbox1:hover{
+    opacity: 100%;
+  }
+
+  .pricingbox2{
+    transition: opacity 0.3s ease;
+    opacity: 30%;
+  }
+
+  .pricingbox2:hover{
+    opacity: 100%;
+  }
+
+  .pricingbox3{
+    transition: opacity 0.3s ease;
+    opacity: 30%;
+  }
+
+  .pricingbox3:hover{
+    opacity: 100%;
+  } */
+
+
+  .pricingbox1,
+  .pricingbox2,
+  .pricingbox3 {
+    opacity: 0.3;
+  transition: opacity 0.5s, filter 2s;
+  }
+
+  .pricingbox1:hover,
+  .pricingbox2:hover,
+  .pricingbox3:hover {
+    opacity: 1;
+    filter: brightness(1.5);
+  }
+  
+
+  .pricingbox1:hover .pricingbox1:not(:hover) {
+    opacity: 0.3;
+    transition: opacity 30s; /* Slower fade-out */
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+
+  

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+.company-section {
+  padding: 45px 0px;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #060c21;
+}
+body {
+  transform-style: preserve-3d;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #060c2960;
+  border-radius: 5px;
+}
+
+.box:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgba(255, 255, 255, 0);
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.box:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgba(255, 255, 255, 0);
+  z-index: -1;
+  filter: blur(40px);
+  border-radius: 5px;
+}
+
+.box:before,
+.box:after {
+   background: linear-gradient(235deg, #5910b8, #060c21, #00bcd4);
+}
+
+.content {
+   padding: 20px;
+   box-sizing: border-box;
+   color: rgba(255, 255, 255, 0);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.company-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Raleway;
+  background: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.company-text {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  margin-bottom: 20px;
+}
+
+.team-section {
+  margin-top: 40px;
+}
+
+.team-title {
+  font-size: 24px;
+  font-family: Raleway;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
+  margin-bottom: 20px;
+}
+.team-members {
+  display: flexbox;
+  columns: 3;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.team-member-image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 8%;
+  margin-: 10px;
+}
+
+.team-member-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: Raleway;
+  color: rgb(255, 255, 255);
+}
+
+.team-member-role {
+  font-size: 14px;
+  font-family: Raleway;
+  color: rgb(255, 255, 255);
+  
+}
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+.body {
+  align-items: center;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.7s ease-in;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.nbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.scrolled {
+  position:fixed;  
+  top: 0;
+  left: 0;
+  background-color: black;
+  
+}
+
+.mottobox{
+
+  width: 200%;
+}
+.motto {
+  font-size: 32px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 20px;
+  
+  
+  justify-content: left;
+}
+
+.motto:hover {
+  color: rgb(255, 255, 255);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: right;
+}
+
+.nav-links a {
+  color: rgb(146, 146, 146);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+  justify-content: right;
+}
+
+.nav-links a:hover {
+  color: rgb(255, 255, 255);
+}
+
+

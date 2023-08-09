@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+
+}
+
+.contact-section {
+ 
+
+    padding: 40px 0;
+    font-family: Raleway;
+  color: rgb(255, 255, 255);
+  }
+  
+  .contact-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-address {
+    font-size: 14px;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-email,
+  .contact-phone {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
